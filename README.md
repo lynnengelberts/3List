@@ -3,7 +3,7 @@ Repository accompanying the paper _An Improved Quantum Algorithm for 3-Tuple Lat
 
 
 ## Contents 
-- `verify_3List.py` — verifies the time-complexity analysis of 3List in the proof of Theorem 3.1 (arXiv/ePrint), respectively Theorem 1 (Proceedings). 
+- `verify_3list.py` — verifies the time-complexity analysis of 3List in the proof of Theorem 3.1 (arXiv/ePrint), respectively Theorem 1 (Proceedings). 
 
 ## Usage 
 
@@ -12,7 +12,7 @@ Requires Python 3, no dependencies beyond the standard library.
 Run: 
 
 ```
-python verify_3List.py
+python verify_3list.py
 ```
 
 Expected output: 
