@@ -65,11 +65,11 @@ def time_3List(alpha, alpha_, size_L = log2(27/16)/4, theta = acos(1/3), theta_ 
     Raises 
     ------ 
     ValueError 
-        If the conditions (*) in the proof of Theorem 3.1 (resp. Theorem 1 in the Proceedings version)
+        If the conditions in the proof of Theorem 3.1 (resp. Theorem 1 in the Proceedings version)
         are not satisfied. 
     """
 
-    # Verify conditions (*)    
+    # Verify conditions in proof  
     if not all(0 < angle < pi/2 for angle in [theta, theta_, alpha, alpha_]): 
         raise ValueError("Angles must lie in (0, pi/2).")  
     if not (2*alpha > theta and 2*alpha_ > theta_):  
